@@ -1,0 +1,485 @@
+:root {
+
+    --brand: #20AD96;
+    --brand-dark: #028176;
+    --brand-light: #F3FFFD;
+    --titlle: #333333;
+    --text: #666666;
+    --white: #ffffff;
+
+    --font-title: "poppins simibold", sans-serif;
+    --font-primary: "poppins regular", sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+#tecnologia{
+    scroll-margin-top: 200px;
+}
+#oferecemos {scroll-margin-top: 300px;
+
+}
+ #fale-conosco {
+    scroll-margin-top: 350px;
+}
+
+
+
+
+
+
+body {
+    font-family: "poppins", sans-serif;
+    font-family: var(--font-title);
+    background-color: var(--white);
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: white;
+    font-family: var(--font-title);
+    font-size: 64px;
+
+
+}
+
+h1 {
+    color: var(--white);
+    margin-bottom: 12px;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+
+p {
+    font-family: "poppins regular" sans-serif;
+    font-size: 16px;
+    color: var(--white);
+
+
+}
+
+.container {
+    width: 100%;
+    max-width: 1140px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-sizing: border-box;
+    margin: 0 auto;
+
+}
+
+.header {
+    padding-bottom: 32px;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.header .container {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu a {
+    color: var(--text);
+    font-family: var(--font-primary);
+    font-size: 16px;
+    margin-left: 40px;
+}
+
+.menu a:hover {
+    color: var(--brand);
+
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(../img/background_hero.webp);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.img-dr p {
+    color: var(--text);
+    font-family: var(--font-primary);
+    font-size: 14px;
+}
+
+.hero .content {
+    width: 641px;
+    height: 222px;
+}
+
+
+
+.btn {
+    margin-top: 32px;
+    color: white;
+    background-color: var(--brand);
+    padding: 16px 32px;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.btn:hover {
+    background-color: var(--brand-dark);
+}
+
+h2 {
+    font-family: "poppins simibold", sans-serif;
+    margin-left: 25px;
+    font-size: 40px;
+    color: var(--titlle);
+}
+
+.tecnologia .container {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.img-dr figcaption {
+    color: var(--text);
+    font-size: 14px;
+}
+
+
+.sobre-tec p {
+    color: var(--text);
+    font-family: var(--font-primary);
+    font-size: 20px;
+    margin-left: 25px;
+    margin-top: 30px;
+}
+
+.sobre-tec .btn {
+    margin-left: 25px;
+}
+
+.servicos .container {
+    margin-left: 344px;
+    margin-right: 344px;
+    max-width: 752px;
+}
+
+
+
+.servicos h3 {
+    color: var(--titlle);
+    font-size: 40px;
+    margin-bottom: 12px;
+}
+
+.servicos p {
+    color: var(--text);
+    font-family: var(--font-primary);
+    font-size: 16px;
+}
+
+.nossosservicos {
+    text-align: center;
+}
+
+.oferecemos .container {
+    max-width: 1116px;
+    display: flex;
+    column-gap: 24px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.oferecemos h3 {
+    font-size: 24px;
+    color: var(--brand-dark);
+}
+
+.oferecemos p {
+    font-size: 14px;
+    color: var(--text);
+}
+
+.oferecemos .container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 31px;
+    padding-bottom: 56px;
+    gap: 1px;
+}
+
+.oferecemos .checkup {
+    max-width: 356px;
+    background: #ffffff;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+.oferecemos .clareamento {
+    max-width: 356px;
+    height: 196px;
+    background: #ffffff;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+.oferecemos .ortodontia {
+    max-width: 356px;
+    height: 196px;
+    background: #ffffff;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+.oferecemos .implante {
+    max-width: 356px;
+    height: 196px;
+    background: #ffffff;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+.oferecemos .protese {
+    max-width: 356px;
+    height: 196px;
+    background: #ffffff;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+.oferecemos .canal {
+    max-width: 356px;
+    height: 196px;
+    background: #ffffff;
+    box-shadow: 2px 2px 10px 0 rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    margin-bottom: 24px;
+    margin-right: 24px;
+}
+
+.checkup h3 {
+    padding-top: 56px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+
+.checkup p {
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.clareamento h3 {
+    padding-top: 56px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+}
+
+.clareamento p {
+    margin-bottom: 56px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.ortodontia h3 {
+    padding-top: 56px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+
+}
+
+.ortodontia p {
+    margin-bottom: 56px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.implante h3 {
+    padding-top: 56px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+
+}
+
+.implante p {
+    margin-bottom: 56px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.protese h3 {
+    padding-top: 56px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+
+}
+
+.protese p {
+    margin-bottom: 56px;
+    margin-left: 24px;
+    margin-right: 24px;
+
+}
+
+.canal h3 {
+    padding-top: 56px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+
+}
+
+.canal p {
+    margin-bottom: 56px;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+
+.agende-consulta {
+    background-image: linear-gradient(90deg, var(--brand-dark), var(--brand) 100%);
+
+}
+
+.agende-consulta .container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.agendar h4 {
+    font-size: 40px;
+    margin-top: 48px;
+    margin-bottom: 24px;
+}
+
+.agendar .btn {
+    background-color: var(--brand-light);
+    color: var(--brand);
+}
+
+.menina {
+    margin-top: 17px;
+    width: 227px;
+    height: 267px;
+}
+
+.agendar p {
+    line-height: 150%;
+}
+
+.depoimentos {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.depoimentos h4 {
+    color: var(--titlle);
+    font-size: 40px;
+    margin-bottom: 36px;
+}
+
+.depoimento p {
+    color: var(--text);
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 36px;
+}
+
+.depoimento span {
+    color: var(--brand-dark);
+}
+
+.fale-conosco .container {
+    display: flex;
+    align-items: center;
+}
+
+.content-fale-conosco h4 {
+    font-family: var(--font-title);
+    font-size: 24px;
+    color: var(--brand);
+}
+
+.content-fale-conosco p {
+    color: var(--text);
+    font-family: var(--font-primary);
+    font-size: 14px;
+    margin-top: 13px;
+}
+
+.content-fale-conosco h4 {
+    margin-top: 24px;
+}
+
+.content-fale-conosco ul {
+    margin-top: 18px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: var(--text);
+}
+.clinica{
+margin-right: 107px;
+}
+
+.clinica h4 {
+    font-size: 40px;
+    color: var(--titlle);
+}
+
+.meu-footer {
+    background: linear-gradient(90deg, var(--brand-dark), var(--brand) 100%);
+    margin-top: 100px;
+}
+
+.meu-footer .container {
+    margin-top: 23px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.meu-footer .endereco {
+    font-size: 16px;
+
+}
+
+.meu-footer .redes {
+    margin-top: 21px;
+    margin-left: 30px;
+    margin-bottom: 21px;
+}
+
+.redes a {
+    padding-right: 19px;
+}
