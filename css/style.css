@@ -21,13 +21,16 @@ html {
     scroll-behavior: smooth;
 }
 
-#tecnologia{
+#tecnologia {
     scroll-margin-top: 200px;
 }
-#oferecemos {scroll-margin-top: 300px;
+
+#oferecemos {
+    scroll-margin-top: 300px;
 
 }
- #fale-conosco {
+
+#fale-conosco {
     scroll-margin-top: 350px;
 }
 
@@ -105,10 +108,13 @@ p {
     font-family: var(--font-primary);
     font-size: 16px;
     margin-left: 40px;
+
+
 }
 
 .menu a:hover {
     color: var(--brand);
+    border-bottom: 1px solid var(--brand-dark);
 
 }
 
@@ -126,9 +132,10 @@ p {
     font-size: 14px;
 }
 
+
 .hero .content {
     width: 641px;
-    height: 222px;
+    height: 55px;
 }
 
 
@@ -178,9 +185,9 @@ h2 {
 }
 
 .servicos .container {
-    margin-left: 344px;
-    margin-right: 344px;
+
     max-width: 752px;
+    align-items: center;
 }
 
 
@@ -198,6 +205,7 @@ h2 {
 }
 
 .nossosservicos {
+
     text-align: center;
 }
 
@@ -397,6 +405,22 @@ h2 {
     line-height: 150%;
 }
 
+.swiper-button-next {
+    color: var(--brand);
+}
+
+.swiper-button-next:hover {
+    color: var(--brand-dark);
+}
+
+.swiper-button-prev:hover {
+    color: var(--brand-dark);
+}
+
+.swiper-button-prev {
+    color: var(--brand);
+}
+
 .depoimentos {
     text-align: center;
     margin-top: 100px;
@@ -448,8 +472,9 @@ h2 {
     font-size: 14px;
     color: var(--text);
 }
-.clinica{
-margin-right: 107px;
+
+.clinica {
+    margin-right: 107px;
 }
 
 .clinica h4 {
