@@ -643,7 +643,7 @@ margin-top: 62px;
 
 }
 
-@media(max-width:767px) {
+@media(max-width:767px){
 
     .hero h1 {
         font-size: 40px;
@@ -665,7 +665,9 @@ margin-top: 62px;
     }
 
     .mapa{
-        margin: top 36px;
+        margin-top: 36px;
+        max-width: 100%;
+        height: auto;
     }
 
 .depoimento p{
@@ -686,4 +688,10 @@ margin-top: 62px;
     padding-bottom: 20px;
 }
 
+
+.img-dr img {
+    max-width: 100%;
+    height: auto; 
+
+}
 }
