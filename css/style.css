@@ -134,12 +134,6 @@ p {
 }
 
 
-.hero .content {
-    width: 641px;
-    height: 55px;
-}
-
-
 
 .btn {
     margin-top: 32px;
@@ -623,6 +617,8 @@ margin-top: 62px;
 
     .mapa{
         margin-top: 36px;
+        max-width: 100%;
+        height: auto;
     }
 
 .depoimento p{
@@ -646,9 +642,12 @@ margin-top: 62px;
 @media(max-width:767px){
 
     .hero h1 {
-        font-size: 40px;
+        font-size: 36px;
     }
 
+    .hero p {
+        font-size: 14px;
+    }
     .tecnologia .container{
         flex-direction: column;
       
